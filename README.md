@@ -2,7 +2,7 @@
 
 **描述**
 
->日历控件，含放假节目，原生控件，无需引用jQuery
+>日历控件，含放假节目，原生控件，无需引用jQuery<a href="http://uje.github.io/jDatePicker/">实例</a>
 
 **参数说明（<em style='color: #f00;'>\*为必填参数</em>）**
 
