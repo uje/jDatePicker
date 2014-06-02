@@ -8,6 +8,7 @@
  .j_calendar_month_next{background-position:0 -30px;margin-left:50px;}
 
 .j_calendar td { padding: 0; border: 0; }
+.j_calendar table { margin: 0; padding: 0; border: 0; }
 .j_calendar thead td { height: 25px; background: #01a0d8; padding: 0px 10px; font-size: 12px; color: #FFF; }
 .j_calendar tbody td {text-align: center; font-size: 14px; color: #555;cursor: pointer; font-family: Georgia; }
     .j_calendar tbody td p { font-size: 10px; }
