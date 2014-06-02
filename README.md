@@ -49,28 +49,17 @@
 
 **调用实例（代码）**
 
- &lt;input id="datepicker" />
-
- &lt;link type="stylesheet" href="https://raw.githubusercontent.com/uje/jDatePicker/master/jDatePicker-blue.css" />
- 
- &lt;script src="https://raw.githubusercontent.com/uje/jDatePicker/master/jDatePicker.js"></script>
-
- &lt;script>
-    var dp = jDatepicker({
-    
+    <input id="datepicker" />
+    <link type="stylesheet" href="https://raw.githubusercontent.com/uje/jDatePicker/master/jDatePicker-blue.css" />
+    <script src="https://raw.githubusercontent.com/uje/jDatePicker/master/jDatePicker.js"></script>
+    <script>
+        var dp = jDatepicker({
              el: "datepicker",                //使用对象的文本框
-             
              startDate: "2012-4-1", //开始日期（可不填,默认为今天）
-             
              endDate: "2012-5-20",  //结束日期（可不填,默认为2099年)
-             
              isShowLunar: false,               //是否显示农历（可不填，默认不显示）
-             
              doubleCalendar: true,            //是否显示双列（可不填，默认显示单列）
-             
              dateFmt: "yyyy-MM-dd"           //日期格式，（可不填，默认为yyyy-MM-dd）
-             
          });
-
- &lt;/script>
+    </script>
 
