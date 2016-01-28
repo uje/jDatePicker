@@ -45,10 +45,9 @@
 
 <input id="datepicker" />
 <script>
+    var now = new Date();
     var dp = jDatepicker({
          el: "datepicker",                //使用对象的文本框
-         startDate: "2012-4-1", //开始日期（可不填,默认为今天）
-         endDate: "2012-5-20",  //结束日期（可不填,默认为2099年)
          isShowLunar: false,               //是否显示农历（可不填，默认不显示）
          doubleCalendar: true,            //是否显示双列（可不填，默认显示单列）
          dateFmt: "yyyy-MM-dd"           //日期格式，（可不填，默认为yyyy-MM-dd）
